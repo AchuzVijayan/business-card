@@ -1,0 +1,126 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-weight: bold;
+    margin: 20px auto;
+    margin-left: 0px;
+    /* vertical-align: middle; */
+    
+}
+h1{
+    color: rgb(52, 12, 12);
+    filter: drop-shadow(0px 3px 2px rgb(117, 116, 116));
+}
+
+#headp{
+    font-weight: bold;
+}
+
+h3,h4{
+    padding: 0px;
+    margin: 15px;
+}
+
+#divimg{
+    display: inline-block;
+    padding: 50px;
+}
+
+img{
+    border-radius: 50px;
+    /* width:300px; */
+    /* height: 300px; */
+    position: relative;
+    /* top: ; */
+
+    left: 2px;
+    filter: drop-shadow(10px 10px 5px black);
+    /* box-shadow: #062138,  5px 2px 3px,; */
+}
+
+#divmain{
+
+    display: flex;
+    background: linear-gradient(240deg , #062138, #bdadad);
+    border-radius: 20px 0px 0px 20px;
+    min-width: fit-content;
+    max-width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+#divcontent{
+    width: 100%;
+    padding: 40px 60px;
+    border: 5px solid rgb(152, 152, 152);
+}
+
+#divbuttons{
+    margin: 20px ;
+    display: inline-block;
+}
+
+a{
+
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+#LinkedIn{
+    background-color: #0C7BAF;
+    filter: drop-shadow(0px 3px 4px black);
+}
+
+
+#coffee{
+    background-color: #5A4B3F;
+    filter: drop-shadow(0px 3px 4px black);
+}
+
+#Email{
+    background-color: #5c7bb9;
+    filter: drop-shadow(0px 3px 4px black);
+}
+
+#content-p{
+    padding: 2px;
+    line-height: 20px;
+}
+
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 4px 5px black);
+}
+
+
+#coffee:hover, #LinkedIn:hover, #Email:hover{
+    background-color: rgb(52, 9, 58);
+    filter: drop-shadow(2px 3px 4px black);
+
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(35, 23, 9);
+}
+
+li::before{
+    content: "⚆";
+}
+
+#coffee:active{
+
+}
