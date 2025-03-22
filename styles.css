@@ -1,6 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(66, 66, 66);
     text-align: center;
     background-repeat: no-repeat;
     /* padding: 10px; */
